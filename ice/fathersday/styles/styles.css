@@ -1,0 +1,67 @@
+/* Add your CSS here to style your father's day page */
+
+
+body {
+    background: #ffffff url(/images/backblue-01.png) left top/cover repeat;
+    margin: 0;
+    font-family: Bebas Neue, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+/* Style the wrapper */
+#wrapper {
+    background-color: rgb(184, 210, 226);
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 6px 6px 12px black;
+}
+
+/* Center the image inside main */
+main img {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+}
+
+/* Optional: some basic styling for nav and text */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+main h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
